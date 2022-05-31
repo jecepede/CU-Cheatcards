@@ -6,7 +6,7 @@ Needed :
 - The 'Commodore User Cheatcards.d64' floppy image
 - WinVice
 - The original digitized tapes to actually play the game
-- Basic understading how everything (linking files in WinVice, loading programs on the C64 etc) works
+- Basic understanding how everything (linking files in WinVice, loading programs on the C64 etc) works
 
 
 Needed Optionally :
@@ -17,9 +17,12 @@ Needed Optionally :
 How To :
 ---
 Start the WinVice emulator and link the original TAP file and the 'Commodore User Cheatcards.d64' 
-floppy image. Then, load and run one of the BASIC files from disk. For example 'CU16-PREDATOR'.
+floppy image. Then, load and run one of the BASIC files from disk.
+To see what BASIC files are on the disk use the following command to read and list the directory :
 
-Now, just follow the onscreen instructions. It will attempt to load the original game from tape
+    LOAD"$",8
+
+After loading just follow the onscreen instructions. It will attempt to load the original game from tape
 and after that, you magically have unlimited bullets, unlimited bombs or unlimited lives
 depending on the game and the cheat that was available at the time.
 
@@ -28,14 +31,14 @@ C64 Studio :
 ---
 Please open the file 'Commodore User Cheatcards.s64' to work on the project.
 It needs C64 Studio version 6.8 or higher and WinVice 3.5 or higher to run.
-Open the .s64 file to open the project.
 
 
 Scanned Cards :
 ---
 I have scanned all the cards(1) and the scans reside in the folder 'Scanned Cards'.
-The format if JPEG and the size is 1500 x 2355 pixels scanned at 600 ppi.
-Original size : 64 mm wide x 100 mm tall.
+The format if JPEG and the size is 1500 x 2355 pixels scanned at 600 ppi optical.
+The original size is : 64 mm wide x 100 mm tall.
+Incidentally, this size perfectly fits in a cassette case.
 
 
 Notice :
@@ -51,11 +54,11 @@ Happy gaming !
 Jecepede 
 aka The Guy With The Moustache
 Instagram : @jecepede
-
+YouTube   : https://www.youtube.com/jecepede
 
 
 
 (1) I do not actually own all the cards in this collection.
-So no guarantee these are in the same resolution or format as 
+So no guarantee all the cards are in the same resolution or format as
 the cards I actually own.
 
